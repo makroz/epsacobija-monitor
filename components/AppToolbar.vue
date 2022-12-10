@@ -1,8 +1,7 @@
 <template>
-  <v-toolbar color="primary" fixed dark app >
+  <v-toolbar color="primary" fixed dark app>
     <v-toolbar-title class="ml-0 pl-3">
-      <v-toolbar-side-icon @click.stop="toggleDrawer()"></v-toolbar-side-icon
-      >Sist. de Saneamiento Cosmol
+      <v-toolbar-side-icon @click.stop="toggleDrawer()"></v-toolbar-side-icon>Sist. de Saneamiento EPSA Cobija
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-menu
@@ -14,9 +13,9 @@
     >
       <v-btn icon large flat slot="activator">
         {{
-          $store.state.auth.authUser
-            ? ($store.state.auth.authUser.name).split(" ")[0]
-            : '??'
+        $store.state.auth.authUser
+        ? ($store.state.auth.authUser.name).split(" ")[0]
+        : '??'
         }}
       </v-btn>
       <v-list class="pa-0">
@@ -47,22 +46,22 @@ import Util from '@/util'
 
 export default {
   name: 'app-toolbar',
-  data: function () {
+  data: function() {
     return {
       items: [
         {
           icon: 'fullscreen_exit',
           href: '#',
           title: 'Logout',
-          click: this.handleLogout,
-        },
-      ],
+          click: this.handleLogout
+        }
+      ]
     }
   },
   computed: {
     toolbarColor() {
       return this.$vuetify.options.extra.mainNav
-    },
+    }
   },
   methods: {
     toggleDrawer() {
@@ -73,7 +72,7 @@ export default {
     },
     handleLogout() {
       this.$store.dispatch('auth/logout')
-    },
-  },
+    }
+  }
 }
 </script>
