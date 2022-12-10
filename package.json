@@ -1,7 +1,7 @@
 {
     "name": "saneamiento-monitor",
     "version": "1.0.0",
-    "description": "App para monitores Sistema de Saneamiento Unicef",
+    "description": "App para monitores Sistema de Saneamiento Epsa Cobija",
     "author": "Mario Alberto Guzman Mendoza makroz@hotmail.com",
     "private": true,
     "scripts": {
