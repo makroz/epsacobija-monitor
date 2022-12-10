@@ -1,0 +1,41 @@
+{
+    "name": "saneamiento-monitor",
+    "version": "1.0.0",
+    "description": "App para monitores Sistema de Saneamiento Unicef",
+    "author": "Mario Alberto Guzman Mendoza makroz@hotmail.com",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build --webpackmonitor",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.12.5",
+        "@nuxtjs/pwa": "^3.3.5",
+        "cross-env": "^5.2.0",
+        "crypto-js": "^4.0.0",
+        "font-awesome": "^4.7.0",
+        "i": "^0.3.6",
+        "lodash.truncate": "^4.4.2",
+        "nuxt": "^2.14.12",
+        "nuxt-webfontloader": "^1.1.0",
+        "quill": "^1.3.6",
+        "roboto-fontface": "*",
+        "sweetalert2": "^9.10.12",
+        "vee-validate": "^2.1.7",
+        "vue": "^2.6.12",
+        "vue-croppa": "^1.3.8",
+        "vue-perfect-scrollbar": "^0.1.0",
+        "vue-server-renderer": "^2.6.12",
+        "vuetify": "^1.5.18",
+        "vuetify-loader": "^1.2.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/vuetify": "^1.5.18",
+        "nodemon": "^1.18.9",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.2",
+        "@nuxtjs/webpackmonitor": "^0.1.0"
+    }
+}

@@ -1,0 +1,12 @@
+body,
+html {
+    overscroll-behavior-y: none !important;
+}
+
+div {
+    overscroll-behavior-y: none !important;
+}
+
+.offline {
+    border: 30px solid red;
+}
